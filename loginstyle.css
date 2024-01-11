@@ -1,0 +1,156 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.main{
+  height:100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("bus.jpg");
+  background-attachment:fixed;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  overflow: hidden;
+}
+.formbox{
+  width: 380px;
+  min-height: 570px  ;
+  position: relative;
+  margin: 4% auto;
+  background: rgba(0,0,0,0.5);
+  padding: 5px;
+  border-radius: 20px;
+  overflow:hidden;
+
+}
+
+.buttonbox{
+  width: 220px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 40px 1px #7D6608;
+  border-radius: 30px;
+}
+
+.togglbtn{
+  color: white;
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline:none;
+  position: relative;
+}
+.btn{
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right,#444332,#eab217);
+  border-radius: 30px;
+  float: left;
+}
+.btn .togglbtn:hover{
+  background-color: #332338;
+  border-radius: 30px;
+}
+.inputgrp{
+  margin: 2px;
+  top: 150px;
+  position: absolute;
+  width: 280px;
+  transition: .5s;
+}
+.inputgrp2{
+  margin: 2px;
+  top: 90px;
+  position: absolute;
+  width: 280px;
+  transition: .5s;
+}
+.inputfield{
+  width: 100%;
+  padding: 10px 0;
+  margin: 10px 0;
+  border-top: 0;
+  border-left: 0;
+  border-bottom: 1px solid #999;
+  border-right: 0;
+  ouline: none;
+  background: transparent;
+}
+.submitbtn{
+  color: white;
+  background-image: linear-gradient(to right,#444332,#eab217);
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: 50px 0 0 30px;
+  border: 0;
+  border-radius: 30px;
+  outline: none;
+}
+.submitbtn2{
+  color: white;
+  background-image: linear-gradient(to right,#444332,#eab217);
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: 10px 0 0 30px;
+  border: 0;
+  border-radius: 30px;
+  outline: none;
+}
+
+.check-box{
+  margin: 20px 4px 30px 0;
+}
+.inputgrp span{
+  color: #777;
+  font-size: 12px;
+  bottom: 118px;
+  position: absolute;
+}
+.inputgrp2 span{
+  color: #777;
+  font-size: 12px;
+  bottom: 78px;
+  position: absolute;
+}
+.nouser{
+  text-align: center;
+  position: relative;
+  bottom: -350px;
+  margin: 0;
+}
+
+#login{
+  left: 50px;
+}
+#register{
+  left: 450px;
+}
+a{
+  color: #ced2d9;
+  font-size: 14px;
+
+}
+a:hover{
+  color: purple;
+}
+input{
+color: white;
+outline: none;
+}
+input:focus {
+  border: 2px solid #7D7D2F;
+}
+.errors{
+  color: red;
+  font-size: 10px;
+}
+.errors2{
+  color: red;
+  font-size: 15px;
+}
